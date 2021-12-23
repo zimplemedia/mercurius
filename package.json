@@ -1,9 +1,12 @@
 {
-  "name": "mercurius",
-  "version": "9.0.0",
+  "name": "@zimplemedia/mercurius",
+  "version": "9.0.1",
   "description": "Fastify GraphQL adapter with gateway and subscription support",
   "main": "index.js",
   "types": "index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "scripts": {
     "docs": "docsify serve",
     "unit": "tap test/*.js test/gateway/*.js test/internals/*.js",
@@ -17,13 +20,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mercurius-js/mercurius.git"
+    "url": "git+https://github.com/zimplemedia/mercurius.git"
   },
   "author": "Matteo Collina <hello@matteocollina.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mercurius-js/mercurius/issues"
-  },
   "homepage": "https://mercurius.dev",
   "peerDependencies": {
     "graphql": "^16.0.0"
