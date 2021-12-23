@@ -5,7 +5,7 @@
   "main": "index.js",
   "types": "index.d.ts",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "docs": "docsify serve",
@@ -22,9 +22,7 @@
     "type": "git",
     "url": "git+https://github.com/zimplemedia/mercurius.git"
   },
-  "author": "Matteo Collina <hello@matteocollina.com>",
   "license": "MIT",
-  "homepage": "https://mercurius.dev",
   "peerDependencies": {
     "graphql": "^15.5.1"
   },
